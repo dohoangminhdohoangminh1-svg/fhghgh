@@ -1,22 +1,22 @@
  // Reasons database
  const reasons = [
     { 
-        text: "You’re such a kind and wonderful person, and I feel lucky to share such a good bond with you. 💖", 
+        text: "E là một người vô cùng tốt bụng và tuyệt vời, và mình cảm thấy thật may mắn khi có được mối quan hệ gắn bó tốt đẹp với eiu.. 💖", 
         emoji: "🌟",
         gif: "gif1.gif"
     },
     { 
-        text: "May your day be filled with love, laughter, and endless joy. 🌸 ", 
+        text: "Chúc e một ngày tràn ngập tình yêu, tiếng cười và niềm vui bất tận.. 🌸 ", 
         emoji: "💗",
         gif: "gif2.gif"
     },
     { 
-        text: "Wishing you success, happiness, and everything your heart desires. ✨ ", 
+        text: "Chúc e thành công, hạnh phúc và đạt được mọi điều mình mong ước. ✨ ", 
         emoji: "💕",
         gif: "gif1.gif"
     },
     { 
-        text: "Stay the amazing girl you are—always spreading positivity around. Have the happiest year ahead! 🥳 ", 
+        text: "Hãy mãi là cô gái tuyệt vời như hiện tại luôn lan tỏa năng lượng tích cực đến mọi người. Chúc e có một năm thật hạnh phúc phía trước! 🥳 ", 
         emoji: "🌟",
         gif: "gif2.gif"
     }
@@ -76,7 +76,7 @@ function displayNewReason() {
                 duration: 0.5,
                 ease: "elastic.out",
                 onComplete: () => {
-                    shuffleButton.textContent = "Enter Our Storylane 💫";
+                    shuffleButton.textContent = "Bước vào thế giới câu chuyện của chúng ta 💫";
                     shuffleButton.classList.add('story-mode');
                     shuffleButton.addEventListener('click', () => {
                         gsap.to('body', {
